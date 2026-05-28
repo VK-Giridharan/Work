@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Useful Links Page</title>
+
+    <style>
+        body {
+            font-family: Algerian;
+            margin: 0;
+            height: 100vh;
+
+            /* Beautiful animated gradient background */
+            background: linear-gradient(-45deg, #ff6b6b, #5f27cd, #48dbfb, #1dd1a1);
+            background-size: 400% 400%;
+            animation: gradientBG 8s ease infinite;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .box {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+
+            padding: 35px 45px;
+            border-radius: 16px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+            text-align: center;
+            width: 320px;
+        }
+
+         h1 {
+            color: blue;
+            margin-bottom: -10px;
+        }
+
+        h2 {
+            color: #000000;
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 15px 0;
+        }
+
+        a {
+            display: block;
+            text-decoration: none;
+            padding: 12px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.25);
+            color: white;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            background: rgba(255, 255, 255, 0.45);
+            transform: scale(1.08);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="box">
+
+        <h1>Useful Links</h1>
+        <h2>Click the links below:</h2>
+
+        <ul>
+            <li>
+                <a href="https://www.youtube.com/shorts/yfZzPo0PsG4" target="_blank">
+                    YouTube
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.github.com" target="_blank">
+                    GitHub
+                </a>
+            </li>
+        </ul>
+
+    </div>
+
+</body>
+</html>
